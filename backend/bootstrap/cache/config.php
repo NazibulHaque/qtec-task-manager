@@ -176,7 +176,7 @@
   ),
   'cache' => 
   array (
-    'default' => 'file',
+    'default' => 'array',
     'stores' => 
     array (
       'apc' => 
@@ -695,7 +695,7 @@
   ),
   'session' => 
   array (
-    'driver' => 'file',
+    'driver' => 'array',
     'lifetime' => '6000',
     'expire_on_close' => false,
     'encrypt' => false,
