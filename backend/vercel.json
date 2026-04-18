@@ -1,7 +1,7 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "composer install --no-dev --optimize-autoloader && php artisan config:cache && php artisan route:cache",
+  "buildCommand": "composer install --no-dev --optimize-autoloader",
   "outputDirectory": "public",
   "functions": {
     "api/index.php": {
@@ -18,6 +18,7 @@
     "APP_ENV": "production",
     "APP_DEBUG": "true",
     "LOG_CHANNEL": "stderr",
+    "LOG_LEVEL": "error",
     "CACHE_DRIVER": "array",
     "SESSION_DRIVER": "array",
     "QUEUE_DRIVER": "sync"
