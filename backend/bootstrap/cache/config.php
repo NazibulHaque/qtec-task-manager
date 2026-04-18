@@ -418,7 +418,7 @@
   ),
   'logging' => 
   array (
-    'default' => 'stack',
+    'default' => 'stderr',
     'deprecations' => 
     array (
       'channel' => NULL,
@@ -439,14 +439,14 @@
       array (
         'driver' => 'single',
         'path' => 'D:\\Matjar-online\\task-manager\\backend\\storage\\logs/laravel.log',
-        'level' => 'debug',
+        'level' => 'error',
         'replace_placeholders' => true,
       ),
       'daily' => 
       array (
         'driver' => 'daily',
         'path' => 'D:\\Matjar-online\\task-manager\\backend\\storage\\logs/laravel.log',
-        'level' => 'debug',
+        'level' => 'error',
         'days' => 14,
         'replace_placeholders' => true,
       ),
@@ -456,13 +456,13 @@
         'url' => NULL,
         'username' => 'Laravel Log',
         'emoji' => ':boom:',
-        'level' => 'debug',
+        'level' => 'error',
         'replace_placeholders' => true,
       ),
       'papertrail' => 
       array (
         'driver' => 'monolog',
-        'level' => 'debug',
+        'level' => 'error',
         'handler' => 'Monolog\\Handler\\SyslogUdpHandler',
         'handler_with' => 
         array (
@@ -478,7 +478,7 @@
       'stderr' => 
       array (
         'driver' => 'monolog',
-        'level' => 'debug',
+        'level' => 'error',
         'handler' => 'Monolog\\Handler\\StreamHandler',
         'formatter' => NULL,
         'with' => 
@@ -493,14 +493,14 @@
       'syslog' => 
       array (
         'driver' => 'syslog',
-        'level' => 'debug',
+        'level' => 'error',
         'facility' => 8,
         'replace_placeholders' => true,
       ),
       'errorlog' => 
       array (
         'driver' => 'errorlog',
-        'level' => 'debug',
+        'level' => 'error',
         'replace_placeholders' => true,
       ),
       'null' => 
