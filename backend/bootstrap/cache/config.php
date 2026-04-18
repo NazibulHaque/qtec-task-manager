@@ -257,7 +257,8 @@
     ),
     'allowed_origins' => 
     array (
-      0 => 'https://qtec-task-manager.vercel.app/',
+      0 => 'http://localhost:5173',
+      1 => 'https://qtec-task-manager.vercel.app',
     ),
     'allowed_origins_patterns' => 
     array (

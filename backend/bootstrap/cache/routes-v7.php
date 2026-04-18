@@ -44,7 +44,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::s6gdaDOnTIhmWUWv',
+            '_route' => 'generated::HqDIW2EHoicJbae5',
           ),
           1 => NULL,
           2 => 
@@ -100,7 +100,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::5W69okUx41kKkcVo',
+            '_route' => 'generated::yLq0VlvAPujlLMc5',
           ),
           1 => NULL,
           2 => 
@@ -235,7 +235,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::s6gdaDOnTIhmWUWv' => 
+    'generated::HqDIW2EHoicJbae5' => 
     array (
       'methods' => 
       array (
@@ -252,13 +252,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005930000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000002e00000000000000000";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::s6gdaDOnTIhmWUWv',
+        'as' => 'generated::HqDIW2EHoicJbae5',
       ),
       'fallback' => false,
       'defaults' => 
@@ -457,7 +457,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::5W69okUx41kKkcVo' => 
+    'generated::yLq0VlvAPujlLMc5' => 
     array (
       'methods' => 
       array (
@@ -477,13 +477,13 @@ app('router')->setCompiledRoutes(
         \'version\' => \'1.0.0\',
         \'status\'  => \'running\',
     ]);
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005920000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000002df0000000000000000";}}',
         'namespace' => NULL,
         'prefix' => '',
         'where' => 
         array (
         ),
-        'as' => 'generated::5W69okUx41kKkcVo',
+        'as' => 'generated::yLq0VlvAPujlLMc5',
       ),
       'fallback' => false,
       'defaults' => 
