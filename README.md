@@ -228,6 +228,6 @@ Tasks belong to no specific project or category
 Due date is optional
 
 
-👨‍💻 Author
+Author
 Nazibul Haque
 Full Stack Laravel Developer
