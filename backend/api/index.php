@@ -4,8 +4,18 @@ define('LARAVEL_START', microtime(true));
 
 require __DIR__ . '/../vendor/autoload.php';
 
-if (!is_dir('/tmp/views')) {
-    mkdir('/tmp/views', 0755, true);
+// Create writable directories in /tmp
+$dirs = [
+    '/tmp/views',
+    '/tmp/sessions',
+    '/tmp/cache',
+    '/tmp/logs',
+];
+
+foreach ($dirs as $dir) {
+    if (!is_dir($dir)) {
+        mkdir($dir, 0755, true);
+    }
 }
 
 $app = require_once __DIR__ . '/../bootstrap/app.php';
