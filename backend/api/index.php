@@ -4,7 +4,6 @@ define('LARAVEL_START', microtime(true));
 
 require __DIR__ . '/../vendor/autoload.php';
 
-// Create /tmp/views if it doesn't exist
 if (!is_dir('/tmp/views')) {
     mkdir('/tmp/views', 0755, true);
 }
