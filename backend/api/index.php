@@ -1,5 +1,20 @@
 <?php
 
-require __DIR__ . '/../public/index.php';
+define('LARAVEL_START', microtime(true));
 
-# This file is the entry point for all API requests. It bootstraps the Laravel application and handles incoming requests.
+require __DIR__ . '/../vendor/autoload.php';
+
+// Create /tmp/views if it doesn't exist
+if (!is_dir('/tmp/views')) {
+    mkdir('/tmp/views', 0755, true);
+}
+
+$app = require_once __DIR__ . '/../bootstrap/app.php';
+
+$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
+
+$response = $kernel->handle(
+    $request = Illuminate\Http\Request::capture()
+)->send();
+
+$kernel->terminate($request, $response);

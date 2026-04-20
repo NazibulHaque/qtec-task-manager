@@ -19,11 +19,9 @@
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "LOG_CHANNEL": "stderr",
-    "LOG_LEVEL": "error",
     "CACHE_DRIVER": "array",
     "SESSION_DRIVER": "array",
-    "QUEUE_DRIVER": "sync",
-    "VIEW_COMPILED_PATH": "/tmp/views",
-    "CACHE_STORE": "array"
+    "QUEUE_CONNECTION": "sync",
+    "VIEW_COMPILED_PATH": "/tmp/views"
   }
 }
